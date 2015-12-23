@@ -39,5 +39,8 @@ group :development do
   gem 'spring'
 end
 
-
+# Using in testing 
 gem 'pry'
+
+# AMS using to create json
+gem 'active_model_serializers'
