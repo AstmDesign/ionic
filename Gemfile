@@ -39,8 +39,11 @@ group :development do
   gem 'spring'
 end
 
-# Using in testing 
+# Using in testing
 gem 'pry'
 
 # AMS using to create json
 gem 'active_model_serializers'
+
+# Fixing the cross issues
+gem 'rack-cors', :require => 'rack/cors'
