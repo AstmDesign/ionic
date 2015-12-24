@@ -1,4 +1,5 @@
-== README
+Ruby on Rails app
+=====================
 
 This is the simple rails app
 

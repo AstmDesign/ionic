@@ -1,4 +1,4 @@
-Ionic App Base
+Ionic App
 =====================
 
 This is the simple Ionic app
