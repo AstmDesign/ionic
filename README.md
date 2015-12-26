@@ -1,5 +1,3 @@
-== README
-
 Ionic
 =====================
 
@@ -9,9 +7,13 @@ it's only just for testing converting simple rails app to mobile app by using io
 
 
 ## Requirements
+
 1- Installing Ruby
+
 2- Installing mysql
+
 3- Installing npm
+
 4- Installing Ionic
 
 

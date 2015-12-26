@@ -1,5 +1,3 @@
-== README
-
 Ruby on Rails app
 =====================
 
