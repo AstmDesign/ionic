@@ -48,3 +48,8 @@ angular.module('starter.services', [])
     }
   };
 });
+
+// Get the element details
+.factory('DataEntry', function($resource) {
+  return $resource("http://localhost:3000/ionic/:id.json");
+})
