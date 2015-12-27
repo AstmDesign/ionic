@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>astm test</title>
+    <title>Astm app</title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -29,18 +29,79 @@
     <script src="js/services.js"></script>
   </head>
   <body ng-app="starter">
-    <!--
-      The nav bar that will be updated as we navigate between views.
-    -->
-    <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
-    </ion-nav-bar>
-    <!--
-      The views will be rendered in the <ion-nav-view> directive below
-      Templates are in the /templates folder (but you could also
-      have templates inline in this html file if you'd like).
-    -->
-    <ion-nav-view></ion-nav-view>
+
+    <div class="bar bar-header bar-dark">
+      <h1 class="title">My ionic app</h1>
+    </div>
+    <div class="bar bar-subheader bar-stable">
+      <h2 class="title">Sub Header</h2>
+    </div>
+
+    <ul class="list">
+      <li class="item">
+        1- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li class="item">
+        2- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li class="item">
+        3- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li class="item item-divider">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li class="item">
+        <i class="icon ion-email"></i>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+      <li class="item">
+        <i class="icon ion-folder"></i>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </li>
+    </ul>
+
+    <div class="list">
+      <a class="item item-avatar" href="#">
+        <img src="img/max.png">
+        <h2>Venkman</h2>
+        <p>Back off, man. I'm a scientist.</p>
+      </a>
+      <a class="item item-avatar" href="#">
+        <img src="img/ben.png">
+        <h2>Venkman</h2>
+        <p>Back off, man. I'm a scientist.</p>
+      </a>
+      <a class="item item-avatar" href="#">
+        <img src="img/adam.jpg">
+        <h2>Venkman</h2>
+        <p>Back off, man. I'm a scientist.</p>
+      </a>
+      <a class="item item-thumbnail-left" href="#">
+        <img src="img/mike.png">
+        <h2>Pretty Hate Machine</h2>
+        <p>Nine Inch Nails</p>
+      </a>
+      <a class="item item-thumbnail-left" href="#">
+        <img src="img/perry.png">
+        <h2>Pretty Hate Machine</h2>
+        <p>Nine Inch Nails</p>
+      </a>
+    </div>
+
+    <div class="tabs tabs-icon-top">
+      <a class="tab-item">
+        <i class="icon ion-home assertive"></i>
+        Home
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-star royal"></i>
+        Favorites
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-gear-a energized"></i>
+        Settings
+      </a>
+    </div>
+
   </body>
 </html>
